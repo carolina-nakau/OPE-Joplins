@@ -1,0 +1,163 @@
+﻿<section class="bar bar-3 bar--sm bg--secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="bar__module">
+                    <span class="type--fade">Joplins | Bem Vindo</span>
+                </div>
+            </div>
+            <div class="col-lg-6 text-right text-left-xs text-left-sm">
+                <div class="bar__module">
+                    <ul class="menu-horizontal">
+                        <li>
+                            <div class="modal-instance">
+                                <a href="/autenticacao" class="modal-trigger" data-modal-index="0">Login</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<div class="nav-container ">
+        <div class="bar bar--sm visible-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 col-md-2">
+                        <a href="/">
+                            <img class=" logo-dark" alt="logo" src="assets/img/logo-dark.jpg">
+                            <!-- <img class="logo logo-light" alt="logo" src="assets/img/logo-light.png"> -->
+                        </a>
+                    </div>
+                    <div class="col-9 col-md-10 text-right">
+                        <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                            <i class="icon icon--sm stack-interface stack-menu"></i>
+                        </a>
+                    </div>
+                </div>            
+            </div>            
+        </div>
+        <nav id="menu1" class="bar bar--sm bar-1 hidden-xs ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1 col-md-2 hidden-xs">
+                        <div class="bar__module">
+                            <a href="/">
+                                <img class=" logo-dark" alt="logo" src="assets/img/logo-dark.jpg">
+                                <!-- <img class="logo logo-light" alt="logo" src="assets/img/logo-light.png"> -->
+                            </a>
+                        </div>                        
+                    </div>
+                    <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
+                        <div class="bar__module">
+                            <ul class="menu-horizontal text-left">
+                                <li class="dropdown">
+                                    <a href="/">
+                                        <span>Inicio</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="/sobre-nos">
+                                        <span>Sobre Nós</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="/nosso-material">
+                                        <span>Portifólio</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="/contato">
+                                        <span>Contato</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="/cursos">
+                                        <span>Cursos</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>                        
+                        <div class="bar__module">
+                            <a class="btn btn--sm type--uppercase" href="/autenticacao">
+                                <span class="btn__text">
+                                    Acessar
+                                </span>
+                            </a>
+                            <a class="btn btn--sm btn--primary type--uppercase" href="/registrar">
+                                <span class="btn__text">
+                                    Registrar
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end of container-->
+        </nav>
+        <!--end bar-->
+    </div>
+<!-- ROUTER-OUTLET -->
+<router-outlet>
+    <!-- Paginas -->
+</router-outlet>
+<!-- ENDROUTER-OUTLET -->
+<footer class="footer-3 text-center-xs space--xs ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img alt="Image" class="logo" src="assets/img/logo-dark.png">
+                <ul class="list-inline list--hover">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <span class="type--fine-print">Vamos Comçar</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <span class="type--fine-print">Ajuda</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-right text-center-xs">
+                <ul class="social-list list-inline list--hover">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="socicon socicon-google icon icon--xs"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="socicon socicon-twitter icon icon--xs"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="socicon socicon-facebook icon icon--xs"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="socicon socicon-instagram icon icon--xs"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--end of row-->
+        <div class="row">
+            <div class="col-md-6 text-right text-center-xs">
+                <span class="type--fine-print">©
+                    <span class="update-year">2019</span> Joplins Inc.</span>
+                <a class="type--fine-print" href="#">Política de Privacidade</a>
+                <a class="type--fine-print" href="#">Legal</a>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</footer>

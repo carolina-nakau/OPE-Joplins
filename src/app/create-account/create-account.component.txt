@@ -1,0 +1,50 @@
+﻿<div class="main-container">
+    <section class="imageblock switchable feature-large height-100">
+        <div class="imageblock__content col-lg-6 col-md-4 pos-right">
+            <div class="background-image-holder" style="background: url(&quot;assets/img/inner-7.jpg&quot;); opacity: 1;">
+                <img alt="image" src="assets/img/inner-7.jpg">
+            </div>
+        </div>
+        <div class="container pos-vertical-center">
+            <div class="row">
+                <div class="col-lg-5 col-md-7">
+                    <h2>Crie uma conta na Joplins</h2>
+                    <p class="lead">Vamos começar com 7 dias grátis, não é requerido cartão de crédito — cancele a qualquer momento.</p>
+                    <a class="btn block btn--icon bg--facebook type--uppercase" href="#">
+                        <span class="btn__text">
+                            <i class="socicon-facebook"></i>
+                            Inscreva-se com Facebook
+                        </span>
+                    </a>
+                    <a class="btn block btn--icon bg--twitter type--uppercase" href="#">
+                        <span class="btn__text">
+                            <i class="socicon-twitter"></i>
+                            Inscreva-se com Twitter
+                        </span>
+                    </a>
+                    <hr data-title="OR">
+                    <form>
+                        <div class="row">
+                            <div class="col-12">
+                                <input type="email" name="Email Address" placeholder="Endereço de e-mail">
+                            </div>
+                            <div class="col-12">
+                                <input type="password" name="Password" placeholder="Senha">
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn--primary type--uppercase">Crie uma conta</button>
+                            </div>
+                            <div class="col-12">
+                                <span class="type--fine-print">Ao se inscrever, você concorda com o
+                                    <a href="#">Termo de Serviço</a>
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</div>
